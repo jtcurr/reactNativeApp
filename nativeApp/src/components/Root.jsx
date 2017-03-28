@@ -34,7 +34,6 @@ const Nav = ({ app, user }) => {
             <Route exact path="/" component={HomeView}/>
           </div>
         </Segment>
-    </Sidebar.Pushable>
   );
 }
 
