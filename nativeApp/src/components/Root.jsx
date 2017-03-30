@@ -1,14 +1,12 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
-import { Sidebar, Segment, Menu, Icon } from 'semantic-ui-react';
 import localStyles from './UtilStyles.css';
 
 const Nav = ({ app, user }) => {
   const navList = [
     { displayName: 'Map',      endPoint: '/map',      iconName: 'map',    className: localStyles.mapNav    },
     { displayName: 'Group',    endPoint: '/group',    iconName: 'users',  className: localStyles.groupNav  },
-    { displayName: 'Agenda',   endPoint: '/agenda',   iconName: 'signup', className: localStyles.agendaNav },
-    { displayName: 'Schedule', endPoint: '/schedule', iconName: 'clock',  className: localStyles.schedNav  },
+    { displayName: 'Agenda',   endPoint: '/agenda',   iconName: 'signup', className: localStyles.agendaNav }
   ];
   const chat = { displayName: 'Chat', href: 'https://m.me/', iconName: 'chat', className: localStyles.chatNav }
 
@@ -29,11 +27,9 @@ const Nav = ({ app, user }) => {
           <Icon name={ chat.iconName } /> { chat.displayName }
         </Menu.Item>
         <p><span style={{ color: 'white' }}>Test v0.4.7</span></p>
-        <Segment basic className='remove-borders'>
           <div>
             <Route exact path="/" component={HomeView}/>
           </div>
-        </Segment>
   );
 }
 
