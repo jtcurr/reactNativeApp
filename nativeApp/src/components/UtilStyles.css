@@ -6,10 +6,6 @@
   color: #dddaff !important;
 }
 
-.agendaNav {
-  color: #ddffd6 !important;
-}
-
 .schedNav {
   color: #fffecc !important;
 }
@@ -33,24 +29,12 @@
   width: 239px !important;
 }
 
-.button {
-  float: right;
-  padding: 15px 0px 15px 0px !important;
-  background: rgba(0, 0, 0, 0) !important;
-}
-
-
-/*    Place Totem Modal    */
 .center {
   text-align: center !important;
 }
 
 .center button:first-of-type {
   margin-left: 0 !important;
-}
-
-.totImg {
-  height: 130px;
 }
 
 .optionText {
