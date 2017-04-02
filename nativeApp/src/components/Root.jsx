@@ -3,11 +3,6 @@ import { Route, Link } from 'react-router-dom';
 import localStyles from './UtilStyles.css';
 
 const Nav = ({ app, user }) => {
-  const navList = [
-    { displayName: 'Map',      endPoint: '/map',      iconName: 'map',    className: localStyles.mapNav    },
-    { displayName: 'Group',    endPoint: '/group',    iconName: 'users',  className: localStyles.groupNav  },
-    { displayName: 'Agenda',   endPoint: '/agenda',   iconName: 'signup', className: localStyles.agendaNav }
-  ];
   const chat = { displayName: 'Chat', href: 'https://m.me/', iconName: 'chat', className: localStyles.chatNav }
 
   return (
