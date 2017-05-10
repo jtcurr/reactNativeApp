@@ -2,30 +2,14 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import localStyles from './UtilStyles.css';
 
-const Nav = ({ app, user }) => {
-  const chat = { displayName: 'Chat', href: 'https://m.me/', iconName: 'chat', className: localStyles.chatNav }
-
-  return (
-        {navList.map((item, index) => (
-          <Menu.Item
-            className={ item.className }
-            key={ index }
-            as={ Link }
-            to={ item.endPoint }>
-            <Icon name={ item.iconName } /> { item.displayName }
-          </Menu.Item>
-        ))}
-
-        <Menu.Item
-          href={ chat.href }
-          className={ chat.className }>
-          <Icon name={ chat.iconName } /> { chat.displayName }
-        </Menu.Item>
-        <p><span style={{ color: 'white' }}>Test v0.4.7</span></p>
-          <div>
-            <Route exact path="/" component={HomeView}/>
-          </div>
-  );
+class Root extends React.Component {
+  render () {
+    return (
+      <div>
+        <h1>All the tests</h1>
+      </div>
+    )
+  }
 }
 
-export default Nav;
+export default Root;
