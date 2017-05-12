@@ -6,11 +6,13 @@ import {
   View
 } from 'react-native';
 import MapView from 'react-native-maps';
+import Root from '../src/components';
 
 export default class nativeApp extends Component {
   render () {
     return (
-      <MapView/>   
+      <MapView />   
+      <Root />
     )
   }
 }
