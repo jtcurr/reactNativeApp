@@ -6,6 +6,7 @@ class Root extends React.Component {
   render () {
     return (
         <Text>All the tests</Text>
+        {props.list.map( (venue, key) => <ListEntry venueName={venue} key={key}/>)}
     )
   }
 }
