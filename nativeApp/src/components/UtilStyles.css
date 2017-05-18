@@ -14,11 +14,3 @@ h1, h3, p {
 h1 {
   font-size: 50px;
 }
-
-.recentSearches {
-  position: absolute;
-  float: left;
-  font-family: Courier;
-  color: #FF7F50;
-  font-weight: bold;
-}
