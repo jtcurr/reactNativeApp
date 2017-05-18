@@ -10,6 +10,7 @@ import MapView from 'react-native-maps';
 export default class nativeApp extends Component {
   render () {
     return ( 
+    	<MapView />
     )
   }
 }
