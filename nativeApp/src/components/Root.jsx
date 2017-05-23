@@ -6,12 +6,6 @@ class Root extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      width: 800,
-      height: 500,
-      location: {
-        lat:37.7831708,
-        lng: -122.4100967
-      },
       show: false
     }
   }
