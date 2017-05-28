@@ -6,8 +6,8 @@ class Root extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      width: 21.3453453,
-      height: 173.43535322,
+      width: 19.23422442,
+      height: 234.2342142342,
       show: false
     }
   }
@@ -15,8 +15,8 @@ class Root extends React.Component {
   //RELATES TO THE BUTTONS ON THE OUTSIDE OF THE MAP TO MAKE MAP BIGGER OR SMALLER
   increaseSize() {
     this.setState({
-      width: this.state.width + 556,
-      height: this.state.height + 556
+      width: this.state.width + 663,
+      height: this.state.height + 663
     });
     const infoWindows = this.props.venues.map((venue, x) => {
             const location = {
@@ -27,7 +27,6 @@ class Root extends React.Component {
             }
             return <InfoWindow key={x} {...location}>
             {this.props.venues[x].venue.name}
-            {this.props.venues[x].venue.location}
             </InfoWindow>
         })
   }
