@@ -25,9 +25,6 @@ class Root extends React.Component {
                 lng: this.props.venues[x].venue.location.lng
             }
             }
-            return <InfoWindow key={x} {...location}>
-            {this.props.venues[x].venue.name}
-            </InfoWindow>
         })
   }
 }
