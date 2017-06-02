@@ -21,8 +21,7 @@ class Root extends React.Component {
     const infoWindows = this.props.venues.map((venue, x) => {
             const location = {
                 position: {
-                lat: this.props.venues[x].venue.location.lat,
-                lng: this.props.venues[x].venue.location.lng
+                lat: this.props.venues[x].venue.location.lat
             }
             }
         })
