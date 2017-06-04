@@ -15,13 +15,14 @@ class Root extends React.Component {
   //RELATES TO THE BUTTONS ON THE OUTSIDE OF THE MAP TO MAKE MAP BIGGER OR SMALLER
   increaseSize() {
     this.setState({
-      width: this.state.width + 663,
-      height: this.state.height + 663
+      width: this.state.width + 212,
+      height: this.state.height + 212
     });
     const infoWindows = this.props.venues.map((venue, x) => {
             const location = {
                 position: {
-                lat: this.props.venues[x].venue.location.lat
+                lat: this.props.venues[x].venue.location.lat,
+                lng: this.props.venues[x].venue.location.lng
             }
             }
         })
