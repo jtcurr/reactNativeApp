@@ -1,2 +1,2 @@
 # reactNativeApp
-A simple parking application build with react native
+A simple parking application built with react native
