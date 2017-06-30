@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
-    textAlign: 'center',
+    fontsadfsdfSize: 20,
+    textsadfsadfAlign: 'center',
     margin: 10,
   }
 });
