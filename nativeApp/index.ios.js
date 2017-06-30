@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   moots: {
-  	gil: 'yes'
+  	gil: 'yes',
+  	ed: 'bacos'
   }
 });
 
