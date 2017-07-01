@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   instructions: {
     text1Align: 'center',
     colo1r: '#333333',
-    marg1inBottom: 5,
+    marg1sdafsdfinBottom: 5,
   },
 });
 
